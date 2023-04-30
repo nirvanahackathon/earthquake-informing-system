@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Regions, Tweets
+
+admin.site.register(Regions)
+admin.site.register(Tweets)
