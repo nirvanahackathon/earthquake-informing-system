@@ -6,7 +6,7 @@ def home_view(request):
     tweets = Tweets.objects.all()
     context = {
         'tweets': tweets,
-        'region': 'Tweetlər'
+        'region': 'Tweets'
     }
     return render(request, 'index.html', context=context)
 
